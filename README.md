@@ -1,4 +1,4 @@
-<p align="center">Video Game Sales Prediction.</p>
+<p align="center"># Video Game Sales Prediction.</p>
 This repository contains a final project solution for the machine learning course.
 
 
