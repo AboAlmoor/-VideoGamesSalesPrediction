@@ -1,12 +1,12 @@
-# <p align="center"> 🚀 Video Game Sales Prediction.</p>
-This repository contains a final project solution for the machine learning course.
+# <p align="center"> 🎮📈 Video Game Sales Prediction.</p>
+This repository contains a final project solution for the machine learning course at Najah University.
 
 
-## Project Overview 📌
+## 📌 Project Overview 
 This project aims to predict global video game sales using machine learning techniques. By analyzing features such as genre, platform, publisher, critic/user scores, and regional sales, we developed models to forecast sales performance accurately. The best-performing model achieved an R² score of 0.9037, demonstrating strong predictive power.
 
 
-## Dataset 📂
+## 📂 Dataset 
 - Source: [Kaggle - Video Game Sales with Ratings](https://www.kaggle.com/code/arthurtok/the-console-wars-ps-vs-xbox-vs-wii)
 - Description: The dataset contains 16,598 rows and 14 features, including:
   - Name: Title of the video game.
@@ -19,7 +19,7 @@ This project aims to predict global video game sales using machine learning tech
   - Critic/User Scores: Average scores from critics and users.
 
 
-## Methodology 🛠️
+## 🛠️ Methodology 
 - Data Preprocessing
   1. Handling Missing Values:
      - Removed User Count due to excessive missing data.
@@ -46,7 +46,7 @@ This project aims to predict global video game sales using machine learning tech
   - R² Score: Proportion of variance explained by the model.
 
 
-## Results 📈
+## 📈 Results
 |   Model   |   MAE   |  RMSE  |  R² Score  |
 |---------------------|-----|------|--------|
 | Linear Regression	| 0.0040 | 0.0086 | 0.7219 |
@@ -58,19 +58,19 @@ This project aims to predict global video game sales using machine learning tech
 - Gradient Boosting outperformed all other models, achieving the highest R² score and lowest errors.
 
 
-## Key Findings 🔍
+## 🔍 Key Findings 
 1. Top Features: Critic Score, User Score, and regional sales (e.g., Other Sales) significantly influenced global sales.
 2. Model Performance: Ensemble methods (Gradient Boosting, XGBoost) consistently outperformed simpler models.
 3. Non-Linear Relationships: Polynomial Regression improved over Linear Regression but was still less effective than ensemble methods.
 
 
-## Challenges & Limitations ⚠️
+## ⚠️ Challenges & Limitations 
 1. Data Quality: Handling missing values and encoding categorical variables were critical steps.
 2. Computational Complexity: Models like XGBoost and Gradient Boosting required significant resources.
 3. Hyperparameter Tuning: Selecting optimal parameters was essential for model performance.
 
 
-## Conclusion & Future Work 🚀
+## 🚀 Conclusion & Future Work 
 - Conclusion: Gradient Boosting emerged as the best model for predicting video game sales, demonstrating the power of ensemble methods.
 - Future Work:
   - Incorporate additional features like marketing spend and player demographics.
