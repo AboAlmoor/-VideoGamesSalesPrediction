@@ -1,3 +1,7 @@
+<p align="center">Video Game Sales Prediction.</p>
+This repository contains a final project solution for the machine learning course.
+
+
 ## Project Overview 📌
 This project aims to predict global video game sales using machine learning techniques. By analyzing features such as genre, platform, publisher, critic/user scores, and regional sales, we developed models to forecast sales performance accurately. The best-performing model achieved an R² score of 0.9037, demonstrating strong predictive power.
 
