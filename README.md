@@ -44,9 +44,34 @@ This project aims to predict global video game sales using machine learning tech
 
 ## Results 📈
 |   Model   |   MAE   |  RMSE  |  R² Score  |
-|---------------------|-----|------|----------|
-| Linear Regression	| Value 2    | Value 3       |
-| Value 4    | Value 5    | Value 6       |
+|---------------------|-----|------|--------|
+| Linear Regression	| 0.0040 | 0.0086 | 0.7219 |
+| Polynomial Regression	| - | - | 0.8231 |
+| Random Forest Regressor	 | 0.0023 | 0.0059 | 0.8663 |
+| XGBoost Regressor	 | 0.0022 | 0.0054 | 0.8884   |
+|Gradient Boosting| 0.0020 | 0.0051 | 0.9037 |
+
+- Gradient Boosting outperformed all other models, achieving the highest R² score and lowest errors.
 
 
+## Key Findings 🔍
+1. Top Features: Critic Score, User Score, and regional sales (e.g., Other Sales) significantly influenced global sales.
+2. Model Performance: Ensemble methods (Gradient Boosting, XGBoost) consistently outperformed simpler models.
+3. Non-Linear Relationships: Polynomial Regression improved over Linear Regression but was still less effective than ensemble methods.
+
+
+## Challenges & Limitations ⚠️
+1. Data Quality: Handling missing values and encoding categorical variables were critical steps.
+2. Computational Complexity: Models like XGBoost and Gradient Boosting required significant resources.
+3. Hyperparameter Tuning: Selecting optimal parameters was essential for model performance.
+
+
+## Conclusion & Future Work 🚀
+- Conclusion: Gradient Boosting emerged as the best model for predicting video game sales, demonstrating the power of ensemble methods.
+- Future Work:
+  - Incorporate additional features like marketing spend and player demographics.
+  - Explore explainable AI techniques to interpret model decisions.
+
+    
+  
   
